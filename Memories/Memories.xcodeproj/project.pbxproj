@@ -15,6 +15,7 @@
 		26C37751203B95B300F3FB60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C3774F203B95B300F3FB60 /* LaunchScreen.storyboard */; };
 		26C3775C203B95B300F3FB60 /* MemoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3775B203B95B300F3FB60 /* MemoriesTests.swift */; };
 		26C37767203B95B300F3FB60 /* MemoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C37766203B95B300F3FB60 /* MemoriesUITests.swift */; };
+		26D0CBDD203E738000D29E27 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0CBDC203E738000D29E27 /* LogInViewController.swift */; };
 		31C9AACFC8EE8EC4A8A65E27 /* Pods_MemoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438381695C17E6C4DCD4165C /* Pods_MemoriesTests.framework */; };
 		E4EF105F9F6CDD8EBA0D228E /* Pods_MemoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171792360788DFA0E6AC4495 /* Pods_MemoriesUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		26C37762203B95B300F3FB60 /* MemoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C37766203B95B300F3FB60 /* MemoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesUITests.swift; sourceTree = "<group>"; };
 		26C37768203B95B300F3FB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D0CBDC203E738000D29E27 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		2A34285FD8A35C514FCCC61A /* Pods-MemoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemoriesTests/Pods-MemoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		438381695C17E6C4DCD4165C /* Pods_MemoriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5ECB97DE7D2ECBF207D5D7 /* Pods_Memories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,8 +126,8 @@
 		26C37745203B95B300F3FB60 /* Memories */ = {
 			isa = PBXGroup;
 			children = (
+				26D0CBDE203E995700D29E27 /* View Controllers */,
 				26C37746203B95B300F3FB60 /* AppDelegate.swift */,
-				26C37748203B95B300F3FB60 /* ViewController.swift */,
 				26C3774A203B95B300F3FB60 /* Main.storyboard */,
 				26C3774D203B95B300F3FB60 /* Assets.xcassets */,
 				26C3774F203B95B300F3FB60 /* LaunchScreen.storyboard */,
@@ -150,6 +152,15 @@
 				26C37768203B95B300F3FB60 /* Info.plist */,
 			);
 			path = MemoriesUITests;
+			sourceTree = "<group>";
+		};
+		26D0CBDE203E995700D29E27 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D0CBDC203E738000D29E27 /* LogInViewController.swift */,
+				26C37748203B95B300F3FB60 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		4828A87A903BD21A25120518 /* Pods */ = {
@@ -462,6 +473,7 @@
 			files = (
 				26C37749203B95B300F3FB60 /* ViewController.swift in Sources */,
 				26C37747203B95B300F3FB60 /* AppDelegate.swift in Sources */,
+				26D0CBDD203E738000D29E27 /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
